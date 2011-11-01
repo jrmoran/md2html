@@ -16,8 +16,12 @@ This will create a `log.html` file.
 ![Screenshot]( http://i.imgur.com/1Op0n.png )
 
 ## Modifiying The Layout
-Layout files are in the `html` folder, when making changes to any `css`
-or `js` file, run `rake layout` to build a minified version of the layout.
+Look at the `layout` task in the `Rakefile`, you can add new *css* or
+*js* files to it. They will be minified and appended to the layout.
+
+Note: You need to download `bootstrap.css`, `prettify.css` and
+`prettify.js` and place them in `lib/md2html/html` before running the
+task.
 
 
 ## Credits

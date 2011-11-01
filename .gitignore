@@ -3,3 +3,5 @@
 Gemfile.lock
 pkg/*
 meta
+lib/md2html/html/*.css
+lib/md2html/html/*.js
