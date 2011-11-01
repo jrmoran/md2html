@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'md2html/cli'
+Md2html::CLI.start
